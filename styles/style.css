@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.card {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 165px 0px 165px;
+  display: flex;
+  margin-top: 50px;
+}
+/* Left side */
+.text-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 555px;
+  width: 100%;
+  background-color: #f7f6f5;
+}
+.text-conteiner h2 {
+  font-size: 28px;
+  font-weight: 700;
+  max-width: 398px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #3a3845;
+}
+.image-conteiner p {
+  margin-bottom: 32px;
+  text-align: center;
+  max-width: 389px;
+  color: #595667;
+}
+.text-conteiner a {
+  color: #3a3845;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Right side */
+.image-conteiner img {
+  width: 555px;
+  height: 358px;
+}
